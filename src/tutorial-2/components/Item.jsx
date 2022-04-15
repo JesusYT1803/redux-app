@@ -18,6 +18,7 @@ export const Item = ({
 	};
 	const onClickChecked = (number) => {
 		checkedCompletedOnClick(number);
+
 	};
 	return (
 		<ListItem>
