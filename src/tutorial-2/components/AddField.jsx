@@ -10,9 +10,9 @@ export const AddField = ({ onAdd }) => {
 
 	const onClickAdd = () => {
 		onAdd(inputValue, checked);
-
 		setInputValue("");
 		setChecked(false);
+
 	};
 
 
